@@ -8,5 +8,46 @@
     scroll-behavior: smooth;
     text-decoration: none;
     list-style: none;
-    
+
+}
+
+body{
+    color: #fff;
+    background-color: #191919 ;
+
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 28px 11%;
+    border-bottom: 1px solid transparent;
+    transition: all ease .50s;
+}
+
+.logo img{
+    width: 100%;
+    height: auto;
+}
+
+.navlist{
+    display: flex;
+}
+
+.navlist a{
+    color: #e4e4e4;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0 40px;
+    transition: all ease .40s;
+}
+
+.navlist a:hover{
+    color: #e9204f;
 }
