@@ -263,3 +263,34 @@ section{
     transform: translateY(-8px);
     border: 1px solid #4e5055;
 }
+
+.contact{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
+    gap: 5rem;
+    /* text-align: center;
+    margin-top: 4rem; */
+
+}
+
+.left-contact{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+
+}
+
+.in i{
+    color: #e9204f;
+    opacity: 0.5;
+    font-size: 100px;
+    margin-bottom: 15px;
+    transition: all ease .40s;
+}
+
+.in i:hover{
+    opacity: 1;
+    cursor: pointer;
+}
